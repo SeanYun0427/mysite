@@ -74,20 +74,46 @@ header{
     background-color: #2fc9bc;
     height: 33%;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 #main-contact h1 {
-    padding: 30px 0;
+    padding: 30px 10px 10px 10px;
        
 }
 
-input, textarea {
-    width: 300px;
 
+
+input, textarea {
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
 }
 
 footer {
     background-color: #2c3e50;
     height: 250px;
+    color: white;
+}
+
+#footer-location {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#footer-web {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+
+}
+
+#footer-contact {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+
 }
